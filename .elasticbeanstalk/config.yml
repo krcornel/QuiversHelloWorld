@@ -1,0 +1,20 @@
+branch-defaults:
+  default:
+    environment: quiversHelloWorld-env
+environment-defaults:
+  quiversHelloWorld-env:
+    branch: null
+    repository: null
+global:
+  application_name: Quivers Hello World
+  default_ec2_keyname: null
+  default_platform: arn:aws:elasticbeanstalk:us-west-1::platform/Node.js running on
+    64bit Amazon Linux/4.4.5
+  default_region: us-west-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application
