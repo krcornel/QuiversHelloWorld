@@ -62,7 +62,7 @@ This code will create a server that only responds with the text "Hello World".
 * Install Python/pip/EB CLI description [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html)
 * On the command line, first type "eb init", this will ask you a few questions about your region and ask you to create a new application.
 * Configure any env variables you would like. Make a folder called .ebextensions and add .config files there. More information can be found on configuration files [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs.container.html)
-* Type "eb create <env-name>" to create your environment. Hopefully this will create without an issue, on your AWS dashboard you can see the logs and the current "Health" of your environment.
+* Type "eb create 'env-name'" to create your environment. Hopefully this will create without an issue, on your AWS dashboard you can see the logs and the current "Health" of your environment.
 * You can then type "eb deploy" to deploy. Don't forget to include your app.js file from earlier. 
 * You can then make changes to your application and re-deploy using "eb deploy <env-name>". 
 * You can also use "eb logs" to track down a problem if something goes wrong.  
