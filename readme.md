@@ -37,7 +37,7 @@ This code will create a server that only responds with the text "Hello World".
 	
 
 
-**Note:** I did the rest of the set up with the AWS Management Console because it makes the configuration details very easy. You can also do this with EB CLI using the command line, I played around with that a bit too, there are instructions below to complete the task that way below.
+**Note:** I did the rest of the set up with the AWS Management Console because it makes the configuration details very easy. You can also do this with EB CLI using the command line, I played around with that a bit too, there are instructions below to complete the task that way.
 
 ## 4. Create the environment and deploy (AWS Management Console version)
  * Signed into your IAM account in the AWS Management Console, click on services at the top left and find Elastic Beanstalk. 
